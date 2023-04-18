@@ -1,0 +1,15 @@
+/Users/ifrah.islam/Projects/Programes/Programes/bin/Debug/net7.0/Programes
+/Users/ifrah.islam/Projects/Programes/Programes/bin/Debug/net7.0/Programes.deps.json
+/Users/ifrah.islam/Projects/Programes/Programes/bin/Debug/net7.0/Programes.runtimeconfig.json
+/Users/ifrah.islam/Projects/Programes/Programes/bin/Debug/net7.0/Programes.dll
+/Users/ifrah.islam/Projects/Programes/Programes/bin/Debug/net7.0/Programes.pdb
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.csproj.AssemblyReference.cache
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.AssemblyInfoInputs.cache
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.AssemblyInfo.cs
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.csproj.CoreCompileInputs.cache
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.dll
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/refint/Programes.dll
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.pdb
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/Programes.genruntimeconfig.cache
+/Users/ifrah.islam/Projects/Programes/Programes/obj/Debug/net7.0/ref/Programes.dll

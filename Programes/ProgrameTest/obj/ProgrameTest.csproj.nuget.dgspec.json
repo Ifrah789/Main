@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ifrah.islam/Projects/Programes/ProgrameTest/ProgrameTest.csproj": {}
+  },
+  "projects": {
+    "/Users/ifrah.islam/Projects/Programes/Programes/Programes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ifrah.islam/Projects/Programes/Programes/Programes.csproj",
+        "projectName": "Programes",
+        "projectPath": "/Users/ifrah.islam/Projects/Programes/Programes/Programes.csproj",
+        "packagesPath": "/Users/ifrah.islam/.nuget/packages/",
+        "outputPath": "/Users/ifrah.islam/Projects/Programes/Programes/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ifrah.islam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ifrah.islam/Projects/Programes/ProgrameTest/ProgrameTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ifrah.islam/Projects/Programes/ProgrameTest/ProgrameTest.csproj",
+        "projectName": "ProgrameTest",
+        "projectPath": "/Users/ifrah.islam/Projects/Programes/ProgrameTest/ProgrameTest.csproj",
+        "packagesPath": "/Users/ifrah.islam/.nuget/packages/",
+        "outputPath": "/Users/ifrah.islam/Projects/Programes/ProgrameTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ifrah.islam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ifrah.islam/Projects/Programes/Programes/Programes.csproj": {
+                "projectPath": "/Users/ifrah.islam/Projects/Programes/Programes/Programes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
