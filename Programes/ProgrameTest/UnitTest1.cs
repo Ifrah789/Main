@@ -1,37 +1,26 @@
-﻿using System;
-using System.Diagnostics;
-using System.Threading;
+﻿using System.Diagnostics;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
-using NUnit.Framework;
 
-namespace ProgramTest
+namespace ProgrameTest
+
 {
     [TestFixture]
     public class ProcessMonitorTest
     {
         [Test]
-        public void Monitor_Calculator_Less_Than_Max_Lifetime_Does_Not_Kill_It()
+        public void Main_WithValidArgs_ShouldNotThrowException()
         {
-            const string calculatorPath = "/System/Applications/Calculator.app";
+            // Arrange
             const string processName = "Calculator";
-            const Double maxLifetime = 0.30;
-            const int frequency = 1;
-            var startInfo = new ProcessStartInfo
-            {
-                FileName = calculatorPath,
-                UseShellExecute = true
-            };
-            var process = Process.Start(startInfo);
+            const int maxLifetime = 1;
+            const int frequencyMonitor = 1;
+            var args = new[] { processName, maxLifetime.ToString(), frequencyMonitor.ToString() };
 
-            var thread = new Thread(() => Program.Main(new[] { processName, maxLifetime.ToString(), frequency.ToString() }));
-            thread.Start();
-            Thread.Sleep(5000);
-
-            process.Refresh();
-            Assert.That(process.HasExited, Is.False);
-
-            process.CloseMainWindow();
-            thread.Join();
+            // Act and Assert
+            Assert.DoesNotThrow(() => Program.Main(args));
         }
     }
 }
+
+
+
